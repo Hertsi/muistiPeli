@@ -11,7 +11,7 @@ let currentGameId = 0;
 //juurimappaus antaa aloitus tiedon ja kertoo mistä postman pyynnön esimerkit löytyvät
 app.get('/', (req, res) => {
     res.json({
-        message: "MuistiPeli, pelia ohjetaan end-pointien avulla, joka löytyvät readme-tiedostosta"
+        message: "MuistiPeli, pelia ohjetaan end-pointien avulla, jotka löytyvät readme-tiedostosta"
     });
 });
 
